@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Cadastre-se</title>
+</head>
+    <body style="background-color: #F2E3DB;">
+        <header style="text-align: center; background-color: #8B7E74; height: 150px; width: 100%; font-size: 25px;">
+            <h1>
+                <b>HTML</b> 
+                <sup><b>Linguagem de Marcação de Hipertexto</b></sup>
+            </h1>
+            <h2>
+                <b>Tutoriais para iniciantes</b>
+            </h2>
+        </header>
+        <nav>
+            <ul style="list-style: none; display: flex; justify-content: space-between; background-color: #8B7E74; padding: 10px;">
+                <li><a href="index.html" style="color: aliceblue;">Home</a></li>
+                <li><a href="index.html#html" style="color: aliceblue;">HTML</a></li>
+                <li><a href="index.html#tabela_lista" style="color: aliceblue;">Tabela/Lista</a></li>
+                <li><a href="index.html#sobre" style="color: aliceblue;">+ sobre CSS, HTML e JS</a></li>
+                <li><a href="index.html#rodape" style="color: aliceblue;">Links</a></li>
+                <li><a href="contato.html" style="color: aliceblue;">Contato</a></li>
+            </ul>
+        </nav>
+        <section style="text-align: center; color: #000;">
+                <p>
+                    <b>Entre em contato conosco! </b> 
+                </p>
+                <p>
+                    <b>Para conseguir entrar em contato conosco, preencha o formulário.</b>
+                </p>
+        </section>
+        <section style="text-align: center; color: #000;" >
+            <form method="get"  action="obrigado.html">
+                <br><label>Digite seu nome: </label>
+                <input type="text" name="Nome" id="Nome" required></br>
+                <br><label>Digite seu e-mail: </label>
+                <input type="email" name="email" id="email" required></br>
+                <br><label>Selecione o assunto: </label>
+                <select name="assunto" required>
+                    <option selected>Selecionar</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="critica">Crítica</option>
+                    <option value="elogio">Elogio</option>
+                </select></br>
+                <br><label>Digite a mensagem: </label></br>
+                <br><textarea name="mensagem" required></textarea></br>
+                <input type="checkbox" name="termo" value="Concordo com os Termos de Privacidade do Site. " required>
+                <label>Concordo com os Termos de Privacidade do Site.</label>
+
+
+                <p><input type="submit"  value="Enviar a Mensagem"  name="submit" id="subm" required  style="color: chartreuse; background-color: black;"></p>
+                <p><input type="reset"  value="Apagar a Mensagem"  name="reset" id="res" required  style="color: crimson;  background-color: black;"></p>
+
+
+            </form>
+        </section>
+    </body>
+    <footer style="padding: auto;" id="rodape">
+        <section style="display: grid; grid-template-columns: auto auto auto auto;">
+            <section style="height: 10px; background-color: #C7BCA1; padding: 10px; height: 80px;">
+                    <ol style="list-style: disc;">
+                        <b>Fonte</b>
+                        <li><a href="https://pt.wikipedia.org/wiki/HTML" target="_blank">Wikipedia</a></li>
+                        <li><a href="https://github.com/topics/html" target="_blank">GitHub</a></li>
+                    </ol>
+                </section>
+            <section style="height: 10px; background-color: #F1D3B3; padding: 10px; height: 80px;">
+                    <ol style="list-style: disc;">
+                        <b>Referências</b>
+                        <li><a href="https://www.youtube.com/@profdanielbrandao" target="_blank">Daniel Brandão</a></li>
+                        <li><a href="https://www.youtube.com/@CursoemVideo" target="_blank">Gustavo Guanabara</a></li>
+                        <li><a href="https://www.youtube.com/@MatheusBattisti" target="_blank"> Matheus Battisti</a></li>
+                    </ol>
+                </section>
+            <section style="height: 10px; background-color: #C7BCA1; padding: 10px; height: 80px;">
+                    <ol style="list-style: disc;">
+                        <b>Como consertar</b>
+                        <li><a href="https://stackoverflow.com/" target="_blank">StackOverflow</a></li>
+                    </ol>
+                </section>
+            <section style="height: 10px; background-color: #F1D3B3; padding: 10px; height: 80px;">
+                    <ol style="list-style: disc;">
+                        <b>+ Links</b>
+                        <li><a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn do Craque de Bola</a></li>
+                    </ol>
+            </section>
+        </section>
+        <div style="text-align: center; color: aliceblue;">
+            Victor Oliveira Di Mambro <span>&copy;</span> 2023 / Turma C 
+        </div>
+    </footer>
+</html>
